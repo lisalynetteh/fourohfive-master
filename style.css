@@ -572,7 +572,6 @@ body {
 }
 
 .container {
-  color: #888888;
   margin: 10px;
   padding: 20px;
 }
@@ -597,6 +596,11 @@ body {
   -ms-flex-align: center;
       align-items: center;
   padding: 30px;
+}
+
+.backgroundd {
+  background: #d4000a;
+  color: #f7f7f7;
 }
 
 .bg-white {
