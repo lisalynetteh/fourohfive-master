@@ -1,0 +1,66 @@
+// Global styles and defaults
+
+//Body background and font color
+body {
+	background: #f7f7f7;
+}
+
+.event {
+	display: flex;
+		align-items: center;
+		margin: 64px 0;
+}
+
+.event__image {
+	margin-right: 36px;
+	max-width: 25%;
+}
+
+.event__image img {
+	border-radius: 70%;
+	border-color: #d4000a;
+	border-width: 30px;
+	height: auto;
+	max-width: 100%;
+}
+
+.event__content {
+	max-width: 75%;
+}
+
+.event__time {
+	font-style: italic;
+}
+
+.event__link {
+	font-weight: bold;
+	color: $gray;
+} 
+
+.event__title {
+	color: #d4000a;
+}
+
+.container {
+	color: $gray;
+	margin: 10px;
+	padding: 20px;
+}
+
+.button__home {
+	display: flex;
+		align-items: center;
+		
+}
+
+.title__home {
+	display: flex;
+		align-items: center;
+		
+}
+
+.footer__foot {
+	display: flex;
+		align-items: center;
+	padding: 30px;
+}
