@@ -43,8 +43,8 @@ body {
 
 .container {
 	//color: $gray;
-	margin: 10px;
-	padding: 20px;
+	//margin: 10px;
+	//padding: 20px;
 }
 
 .button__home {
@@ -53,9 +53,10 @@ body {
 		
 }
 
-.title__home {
+.home__title {
 	display: flex;
 		align-items: center;
+		
 		
 }
 
@@ -68,4 +69,6 @@ body {
 .backgroundd {
 	background: #d4000a;
 	color: #f7f7f7;
+	padding: 70px;
+	margin-bottom: 30px;
 }

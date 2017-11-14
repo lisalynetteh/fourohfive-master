@@ -9,19 +9,23 @@
 
 
 
-        <h2 class="container backgroundd home__title"> 
+        <h2 class="home__title backgroundd"> 
         	<?php the_field('title'); ?>
-        </h2>
 
-        <form class="container backgroundd button__home">
+        	<br>
+
+        	<form class="button__home">
 <input type="button" value="SIGN UP" onclick="window.location.href='http://www.hyperlinkcode.com/button-links.php'" />
 </form>
+        </h2>
 
-<p class="container home__title"> 
+        
+
+<p class="home__title"> 
         	<?php the_field('galleryhourstitle'); ?>
         </p>
 
-        <p class="container home__title"> 
+        <p class="home__title"> 
         	<?php the_field('galleryhours'); ?>
         </p>
 

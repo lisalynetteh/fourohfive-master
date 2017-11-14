@@ -33,9 +33,6 @@ if( have_rows('event') ):
 
 		$image = get_sub_field('event_image');
 
-		//echo '<pre>';
-		//print_r($image);
-		//echo '</pre>'; 
 
 		if( !empty($image) ): ?>
 

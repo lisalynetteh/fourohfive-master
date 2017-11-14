@@ -571,11 +571,6 @@ body {
   color: #d4000a;
 }
 
-.container {
-  margin: 10px;
-  padding: 20px;
-}
-
 .button__home {
   display: -ms-flexbox;
   display: flex;
@@ -583,7 +578,7 @@ body {
       align-items: center;
 }
 
-.title__home {
+.home__title {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -601,6 +596,8 @@ body {
 .backgroundd {
   background: #d4000a;
   color: #f7f7f7;
+  padding: 70px;
+  margin-bottom: 30px;
 }
 
 .bg-white {
