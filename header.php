@@ -52,6 +52,8 @@
 
 		<nav id="global-nav" class="global-nav">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php echo 'Menu'; ?></button>
+			<h2 class="header__title"> Litz Art Gallery </h2>
+			<img src='logo.jpg' alt='LitzLogo' />
 			<?php
 				/**
 				 * This creates a menu area that we can edit via the dashboard.

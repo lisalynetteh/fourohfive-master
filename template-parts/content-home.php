@@ -21,11 +21,11 @@
 
         
 
-<p class="home__title"> 
+<h2 class="home__titles"> 
         	<?php the_field('galleryhourstitle'); ?>
-        </p>
+        </h2>
 
-        <p class="home__title"> 
+        <h2 class="home__titles"> 
         	<?php the_field('galleryhours'); ?>
-        </p>
+        </h2>
 
