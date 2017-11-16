@@ -2,13 +2,16 @@
 		the_post_thumbnail('full', ['class' => 'img-fluid']);?>
 
 
-		<?php the_title( '<h1>', '</h1>' ); ?>
+		<div class= "event___title backgrounddd">
+		<h2> Exhibits </h2>
+
+	</div>
 	
 	
 		<?php the_content();?>
 
 	
-
+<article>
 
 <?php if( have_rows('exhibit') ): ?>
 
@@ -38,7 +41,7 @@ if( !empty($image) ): ?>
        <?php the_sub_field('description'); ?> 
 
    </p>
-
+</article>
 <?php
 
 

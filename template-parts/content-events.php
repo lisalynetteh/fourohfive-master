@@ -1,10 +1,10 @@
 <?php 	
 		the_post_thumbnail('full', ['class' => 'img-fluid']);?>
 
-<h2 class= "event___title">
-		<?php the_title( '<h1>', '</h1>' ); ?>
+<div class= "event___title backgrounddd">
+		<h2> Events </h2>
 
-	</h2>
+	</div>
 	
 	
 		<?php the_content();?>

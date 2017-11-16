@@ -4,11 +4,14 @@
 	
 		<?php the_content();?>
 
-		 <h2 class="event__title"> 
-        	<?php the_field('title'); ?>
-        </h2>
+		<div class= "event___title backgrounddd">
+		<h2> About the Litz Gallery </h2>
+
+	</div>
 
         <p><?php the_field('textfield'); ?></p>
+
+        <article class="event__image">
 
 <?php 
 
@@ -19,3 +22,5 @@ if( !empty($image) ): ?>
 	<img class="about__image" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 
 <?php endif; ?>
+
+</article>

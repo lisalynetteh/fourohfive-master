@@ -454,11 +454,7 @@ body, html {
 }
 
 .global-nav {
-  display: -ms-flexbox;
-  display: flex;
   width: 100%;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
   color: black;
 }
 
@@ -516,6 +512,10 @@ body, html {
   }
 
   .global-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
     border-top: 1px solid #888888;
     border-bottom: 1px solid #888888;
   }
@@ -555,7 +555,6 @@ body {
   height: auto;
   max-width: 100%;
   padding-left: 30px;
-  image-border: 2px;
 }
 
 .event__content {
@@ -573,22 +572,25 @@ body {
 
 .event__title {
   color: #d4000a;
+  margin-right: 36px;
 }
 
 .event___title {
-  margin-left: 30px;
+  margin-right: 36px;
 }
 
 .button__home {
-  background-color: white;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
       justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  background-color: white;
   border-radius: 12px;
   color: #000000;
   border: none;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -605,15 +607,13 @@ body {
 .home__titles {
   display: -ms-flexbox;
   display: flex;
-  padding-left: 70px;
-  padding-bottom: 70px;
+  margin: 30px;
 }
 
 .home__titless {
   display: -ms-flexbox;
   display: flex;
-  padding-left: 70px;
-  padding-bottom: 70px;
+  margin: 30px;
 }
 
 .footer__foot {
@@ -634,8 +634,20 @@ body {
       justify-content: center;
   background: #d4000a;
   color: #f7f7f7;
-  padding: 70px;
+  padding: 60px;
   margin-bottom: 30px;
+  position: auto;
+}
+
+.backgrounddd {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background: #d4000a;
+  color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .header__title {
@@ -643,6 +655,7 @@ body {
   display: flex;
   -ms-flex-pack: start;
       justify-content: flex-start;
+  margin: 20px;
 }
 
 .news__letter {
@@ -666,6 +679,15 @@ body {
   max-width: 100%;
   padding-left: 30px;
   image-border: 2px;
+}
+
+.home_alert {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 .bg-white {

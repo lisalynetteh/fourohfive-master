@@ -14,7 +14,7 @@
 			</div>
 
 			<footer>
-				<p class="footer__foot">Copyright &copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. All rights reserved. </p>
+				<p class="footer__foot">Copyright &copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>. All rights reserved Litz Gallery. </p>
 			</footer>
 
 		<?php wp_footer(); ?>

@@ -8,26 +8,22 @@
 		<?php the_content();?>
 
 
-
-        <h2 class="home__title backgroundd"> 
+<div>
+        <h2 class="home_alert backgroundd"> 
         	<?php the_field('title'); ?>
-
         	<br>
-
-        	<form >
-        		<br>
-<input class="button__home" type="button" value="SIGN UP" onclick="window.location.href='http://art-gallery.dev/newsletter/'" />
-</form>
-        </h2>
+        	<a class="button__home" href="http://art-gallery.dev/newsletter/">Sign up!</a>
+</h2>
+        	<div>
 
         
 
 <h2 class="home__titles"> 
         	<?php the_field('galleryhourstitle'); ?>
-        	<br>
-        	<?php the_field('galleryhours'); ?>
         
         </h2>
+
+        <p class="home__titless"> <?php the_field('galleryhours'); ?> </p>
 
        
 
