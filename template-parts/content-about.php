@@ -4,7 +4,7 @@
 	
 		<?php the_content();?>
 
-		 <h2> 
+		 <h2 class="event__title"> 
         	<?php the_field('title'); ?>
         </h2>
 
@@ -16,6 +16,6 @@ $image = get_field('image');
 
 if( !empty($image) ): ?>
 
-	<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+	<img class="about__image" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 
 <?php endif; ?>

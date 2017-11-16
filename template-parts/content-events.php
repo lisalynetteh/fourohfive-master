@@ -1,13 +1,16 @@
 <?php 	
 		the_post_thumbnail('full', ['class' => 'img-fluid']);?>
 
-
+<h2 class= "event___title">
 		<?php the_title( '<h1>', '</h1>' ); ?>
+
+	</h2>
 	
 	
 		<?php the_content();?>
 
 		<?php
+
 
 // check if the repeater field has rows of data
 if( have_rows('event') ):

@@ -14,8 +14,9 @@
 
         	<br>
 
-        	<form class="button__home">
-<input type="button" value="SIGN UP" onclick="window.location.href='http://art-gallery.dev/newsletter/'" />
+        	<form >
+        		<br>
+<input class="button__home" type="button" value="SIGN UP" onclick="window.location.href='http://art-gallery.dev/newsletter/'" />
 </form>
         </h2>
 
@@ -23,9 +24,10 @@
 
 <h2 class="home__titles"> 
         	<?php the_field('galleryhourstitle'); ?>
+        	<br>
+        	<?php the_field('galleryhours'); ?>
+        
         </h2>
 
-        <h2 class="home__titles"> 
-        	<?php the_field('galleryhours'); ?>
-        </h2>
+       
 

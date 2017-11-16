@@ -7,18 +7,20 @@
 	
 		<?php the_content();?>
 
-	<?php
+	
 
-// check if the repeater field has rows of data
-if( have_rows('exhibit') ):
 
- 	// loop through the rows of data
-    while ( have_rows('exhibit') ) : the_row();
+<?php if( have_rows('exhibit') ): ?>
 
-        // display a sub field value
-        the_sub_field('title');
+   <?php while ( have_rows('exhibit') ) : the_row(); ?>
 
-        ?>
+
+<h2 class="event__title">
+       <?php the_sub_field('title'); ?> 
+
+   </h2>
+
+       <div class="event__image">
 
         <?php 
 
@@ -26,9 +28,16 @@ $image = get_sub_field('image');
 
 if( !empty($image) ): ?>
 
-	<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+	<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" onclick="window.location.href='http://art-gallery.dev/gallery-2/current-exhibit//'" />
 
 <?php endif; ?>
+
+</div>
+
+<p class="event__title">
+       <?php the_sub_field('description'); ?> 
+
+   </p>
 
 <?php
 
