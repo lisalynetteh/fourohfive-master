@@ -11,7 +11,7 @@
 		<?php the_content();?>
 
 	
-<article>
+<article class="exhibit">
 
 <?php if( have_rows('exhibit') ): ?>
 
@@ -41,6 +41,19 @@ if( !empty($image) ): ?>
        <?php the_sub_field('description'); ?> 
 
    </p>
+
+
+<?php 
+
+$link = get_field('link');
+
+if( $link ): ?>
+	
+	<a class="button__home" href="<?php echo $link; ?>">Go to page</a>
+
+<?php endif; ?>
+
+
 </article>
 <?php
 

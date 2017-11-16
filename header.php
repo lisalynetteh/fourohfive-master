@@ -53,6 +53,7 @@
 		<nav id="global-nav" class="global-nav">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php echo 'Menu'; ?></button>
 			<h2 class="header__title"> Litz Art Gallery </h2>
+			<img src="Litz.png" alt="" style="float:left";></a> 
 			<?php
 				/**
 				 * This creates a menu area that we can edit via the dashboard.

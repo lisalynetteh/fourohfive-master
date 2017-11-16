@@ -564,11 +564,6 @@ body {
       justify-content: flex-end;
   -ms-flex-align: center;
       align-items: center;
-  margin-right: 36px;
-  max-width: 25%;
-  padding-left: 30px;
-  border-color: #d4000a;
-  image-border: 2px;
 }
 
 .event__content {
@@ -707,7 +702,13 @@ body {
 }
 
 .text__about {
-  margin: 40px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-left: 30px;
 }
 
 .bg-white {
