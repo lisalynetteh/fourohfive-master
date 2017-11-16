@@ -15,7 +15,7 @@
         	<br>
 
         	<form class="button__home">
-<input type="button" value="SIGN UP" onclick="window.location.href='http://www.hyperlinkcode.com/button-links.php'" />
+<input type="button" value="SIGN UP" onclick="window.location.href='http://art-gallery.dev/newsletter/'" />
 </form>
         </h2>
 

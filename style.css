@@ -576,7 +576,7 @@ body {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
-  border-radius: 50%;
+  border-radius: 12px;
 }
 
 .home__title {
@@ -619,8 +619,12 @@ body {
 .header__title {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: start;
-      align-items: flex-start;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+}
+
+.news__letter {
+  margin-left: 70px;
 }
 
 .bg-white {
