@@ -30,6 +30,17 @@ body {
 
 }
 
+.event__imagee {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 36px;
+	max-width: 25%;
+	padding-left: 30px;
+	border-color: #d4000a;
+	image-border: 2px;
+}
+
 .event__content {
 	max-width: 75%;
 }
@@ -46,6 +57,7 @@ body {
 .event__title {
 	color: #d4000a;
 	margin-right: 36px;
+	margin-left: 60px;
 }
 
 .event___title {
@@ -70,6 +82,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
+	margin-left: 10px;
 		
 }
 
@@ -153,4 +166,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.text__about {
+	margin: 40px;
 }

@@ -9,9 +9,9 @@
 
 	</div>
 
-        <p><?php the_field('textfield'); ?></p>
+        <p class="text__about"> <?php the_field('textfield'); ?></p>
 
-        <article class="event__image">
+        <article class="event__imagee">
 
 <?php 
 
