@@ -9,22 +9,21 @@
 
 	</div>
 
-<div class="event___title">
-        <p> <?php the_field('textfield'); ?></p> 
-    </div>
+<div>
+        <p class="text__about"> <?php the_field('textfield'); ?></p>
 
-       
- <div class="event__image">
+        <article class="event__imagee">
+
 <?php 
 
 $image = get_field('image');
 
 if( !empty($image) ): ?>
 
-	<img class="about_image" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+	<img class="about__image" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 
-
+	</div>
 
 <?php endif; ?>
-</div>
 
+</article>
