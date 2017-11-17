@@ -51,9 +51,14 @@
 		endif; ?>
 
 		<nav id="global-nav" class="global-nav">
+
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php echo 'Menu'; ?></button>
+
 			<h2 class="header__title"> Litz Art Gallery </h2>
-			<img src="Litz.png" alt="" style="float:left";></a> 
+
+			<img class="header__logo" src="http://art-gallery.dev/wp-content/uploads/2017/11/Litz.png" style="width:50px;height:50px;border:0 >
+
+		
 			<?php
 				/**
 				 * This creates a menu area that we can edit via the dashboard.

@@ -25,5 +25,7 @@
 
         <p class="home__titless"> <?php the_field('galleryhours'); ?> </p>
 
+        
+
        
 

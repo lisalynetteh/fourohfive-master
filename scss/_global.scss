@@ -5,6 +5,33 @@ body {
 	background: #f7f7f7;
 }
 
+.contact {
+	margin: 30px;
+}
+
+.exhibits {
+	display: flex;
+	align-items: center;
+	margin: 64px 0;
+}
+
+.exhibits__image {
+	margin-right: 36;
+	max-width: 25%;
+	padding-left: 30px;
+}
+
+.exhibits__image img {
+	height: auto;
+	max-width: 100%;
+	margin: 30px;
+}
+
+.exhibits__content {
+	max-width: 75%;
+
+}
+
 .event {
 	display: flex;
 		align-items: center;
@@ -52,12 +79,12 @@ body {
 
 .event__title {
 	color: #d4000a;
-	margin-right: 36px;
-	margin-left: 60px;
+	
 }
 
-.event___title {
-	margin-right: 36px;
+.event__titles {
+	margin: 50px;
+	
 }
 
 .container {
@@ -113,11 +140,12 @@ body {
 .backgroundd {
 	display: flex;
 	justify-content: center;
+	align-content: stretch;
 	background: #d4000a;
 	color: #f7f7f7;
 	padding: 60px;
 	margin-bottom: 30px;
-	position: auto;
+	
 }
 
 .backgrounddd {
@@ -169,4 +197,28 @@ body {
 	justify-content: flex-start;
 	align-items: center;
 	margin-left: 30px;
+}
+
+.home__logo {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.about {
+	display: flex;
+            justify-content: space-between;
+	text-align: center;
+	max-width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+
+.about__image {
+	float: right;
+}
+
+.about_text {
+	float: left;
 }
