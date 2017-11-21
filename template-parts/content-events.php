@@ -2,7 +2,7 @@
 		the_post_thumbnail('full', ['class' => 'img-fluid']);?>
 
 <div class= "event___title backgrounddd">
-		<h2> Events </h2>
+		<h2> EVENTS </h2>
 
 	</div>
 	

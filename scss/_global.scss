@@ -7,6 +7,7 @@ body {
 
 .contact {
 	margin: 30px;
+
 }
 
 .exhibits {
@@ -38,12 +39,22 @@ body {
 		margin: 64px 0;
 }
 
+.about {
+	margin: 30px;
+}
+
 .event__image {
 	margin-right: 36px;
 	max-width: 25%;
 	padding-left: 30px;
 	border-color: #d4000a;
 	image-border: 2px;
+
+}
+
+.mid {
+	margin: auto;
+
 }
 
 .event__image img {
@@ -53,7 +64,7 @@ body {
 	height: auto;
 	max-width: 100%;
 	padding-left: 30px;
-	
+	border-radius: 50%;
 
 }
 
@@ -106,25 +117,31 @@ body {
 	text-decoration: none;
 	display: inline-block;
 	margin-left: 10px;
+	font-size: 20px;
 		
 }
 
 .home__title {
 	display: flex;
 	justify-content: center;
-	padding: 30px;
+	align-items: center;
+	padding: 20px;
 		
 }
 
 .home__titles {
 	display: flex;
-	margin: 30px;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
 		
 }
 
 .home__titless {
 	display: flex;
-	margin: 30px;
+	margin: 10px;
+	justify-content: center;
+	align-items: center;
 		
 }
 
@@ -138,13 +155,12 @@ body {
 }
 
 .backgroundd {
-	display: flex;
-	justify-content: center;
-	align-content: stretch;
 	background: #d4000a;
 	color: #f7f7f7;
-	padding: 60px;
+	padding: 50px;
 	margin-bottom: 30px;
+	margin-top: 70px;
+	border: 50px;
 	
 }
 
@@ -157,6 +173,7 @@ body {
 	margin-bottom: 20px;
 	
 }
+
 
 .header__title {
 	display: flex;
@@ -191,9 +208,7 @@ body {
 }
 
 .home_alert {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	 text-align: center;
 }
 
 .text__about {
@@ -209,20 +224,74 @@ body {
 	padding: 10px;
 }
 
-.about {
-	display: flex;
-            justify-content: space-between;
-	text-align: center;
-	max-width: 80%;
-	padding-left: 10%;
-	padding-right: 10%;
-
-}
-
 .about__image {
 	float: right;
 }
 
 .about_text {
 	float: left;
+}
+
+/**
+ * Content Styles
+ */
+
+/* This 'lil nugget makes our images responsive. */
+.img-fluid {
+  height: auto;
+  width: 100%;
+}
+
+
+/**
+ * Layout Styles
+ */
+
+/* Standard container, nothing fancy here. */
+.container {
+  margin: 0 auto;
+  padding: 0 24px;
+  max-width: 700px;
+}
+
+/* The media objects will just stack by default with some y-axis margins. */
+.media {
+  margin: 24px 0;
+}
+
+/* At a screen width of 600px or above, we'll use CSS grids for layout. */
+@media screen and (min-width: 600px) {
+  .media {
+    display: grid;
+      align-items: center; /* Flexbox align/justify, etc. props. work in grid too. */
+      grid-gap: 24px; /* Just our gutter. */
+      grid-template-areas: "image content"; /* We can reference these later... */
+      grid-template-columns: 1fr 2fr;
+    margin: 64px 0; /* Larger margins for larger screens. */
+  }
+
+  /**
+   * Change the content/image placement on even media objects.
+   *
+   * This is called a pseudo-class. You can style specific child elements using
+   * it, but note that it will apply the style to any sibling tags, so a pattern
+   * of <p> <p> <p> <h2> <p> will include the <h2> in :nth-child(even).
+   *
+   * Use nth-of-type() if you want to only target siblings of the same type.
+   *
+   * https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child
+   */
+  .media:nth-child(even){
+    grid-template-areas: "content image"; /* See how we swapped these? */
+    grid-template-columns: 2fr 1fr; /* And these? */
+  }
+
+  .media__image {
+    grid-area: image; /* This belongs in our image area, defined above...*/
+    border-radius: 50%;
+  }
+
+  .media__content {
+    grid-area: content; /* This belongs in our content area, defined above...*/
+  }
 }

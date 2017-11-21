@@ -5,14 +5,17 @@
 		<?php the_content();?>
 
 		<div class= "event___title backgrounddd">
-		<h2> About the Litz Gallery </h2>
+		<h2> ABOUT US </h2>
 
 	</div>
 
-<div>
-        <p class="text__about"> <?php the_field('textfield'); ?></p>
 
-        <article class="event__imagee">
+
+<div class="container">
+	<section class="media">
+    <div class="media__image">
+    	<img class="img-fluid"
+
 
 <?php 
 
@@ -20,10 +23,19 @@ $image = get_field('image');
 
 if( !empty($image) ): ?>
 
-	<img class="about__image" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+	<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 
-	</div>
 
 <?php endif; ?>
+</img>
 
-</article>
+ </div>
+    <div class="media__content">
+
+
+
+        <p> <?php the_field('textfield'); ?></p>
+
+        </div>
+  </section>
+

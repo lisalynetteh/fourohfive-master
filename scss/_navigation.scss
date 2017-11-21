@@ -47,6 +47,7 @@
 .global-nav a {
     display: block;
     text-decoration: none;
+    color: black;
 }
 
 /* Small menu. */
@@ -64,8 +65,8 @@
         display: flex;
             justify-content: space-between;
             align-items: center;
-        border-top: 1px solid $gray;
-        border-bottom: 1px solid $gray;
+        //border-top: 1px solid $gray;
+        //border-bottom: 1px solid $gray;
         
 
     }

@@ -2,7 +2,7 @@
 		the_post_thumbnail('full', ['class' => 'img-fluid']);?>
 
 <div class= "event___title backgrounddd">
-		<h2> Exhibits </h2>
+		<h2> EXHIBITS </h2>
 
 	</div>
 	
@@ -64,6 +64,16 @@ if( have_rows('event') ):
 		    	  }
 
 		    	  ?>
+
+		    	  <?php 
+
+$link = get_sub_field('link');
+
+if( $link ): ?>
+	
+	<a class="button event__link" href="<?php echo $link; ?>">Click here</a>
+
+<?php endif; ?>
 		    	  
 
 		    	</p>

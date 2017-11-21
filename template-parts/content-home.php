@@ -4,28 +4,34 @@
 
 		<?php //the_title( '<h1>', '</h1>' ); ?>
 	
-	
+	<div class="bg-red">
 		<?php the_content();?>
+                </div>
 
 
-<div>
-        <h2 class="home_alert backgroundd"> 
-        	<?php the_field('title'); ?>
-        	<br>
+<div class="home_alert backgroundd">
+        <h1> 
+        	<?php the_field('title'); ?> </h1>
+        <br>
+        	
+                <div class="">
         	<a class="button__home" href="http://art-gallery.dev/newsletter/">Sign up!</a>
-</h2>
-        	<div>
+                </div>
+</div>
+        	
 
         
 
-<h2 class="home__titles"> 
+<h1 class="home__titles"> 
         	<?php the_field('galleryhourstitle'); ?>
         
-        </h2>
+        </h1>
 
         <p class="home__titless"> <?php the_field('galleryhours'); ?> </p>
 
-        
+      <div id="map"></div>
+    
+
 
        
 

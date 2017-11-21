@@ -3,7 +3,7 @@
 
 
 		<div class= "event___title backgrounddd">
-		<h2> Newsletter </h2>
+		<h2> NEWSLETTER </h2>
 
 	</div>
 	
