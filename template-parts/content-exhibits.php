@@ -53,8 +53,9 @@ if( have_rows('event') ):
 		    </h2>
 
 		    <p class="event__time"> 
-		    	  <?php  the_sub_field('event_date'); ?> 
-		    	  <?php  the_sub_field('event_time'); ?>
+		    	  <?php  the_sub_field('event_date'); ?> until
+		    	  <?php  the_sub_field('event_date_end'); ?> at
+		    	  <?php  the_sub_field('event_start_time'); ?>
 
 		    	  <?php 
 		    	  if (get_sub_field('event_end_time'))

@@ -14,7 +14,7 @@
 <div class="container">
 	<section class="media">
     <div class="media__image">
-    	<img class="img-fluid"
+    	<img class="img-fluid "
 
 
 <?php 

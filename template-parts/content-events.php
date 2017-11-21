@@ -54,7 +54,7 @@ if( have_rows('event') ):
 
 		    <p class="event__time"> 
 		    	  <?php  the_sub_field('event_date'); ?> at
-		    	  <?php  the_sub_field('event_time'); ?>
+		    	  <?php  the_sub_field('event_start_time'); ?>
 
 		    	  <?php 
 		    	  if (get_sub_field('event_end_time'))
