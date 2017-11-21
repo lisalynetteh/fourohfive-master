@@ -161,7 +161,7 @@ body {
 .header__title {
 	display: flex;
 	justify-content: flex-start;
-	margin: 20px;
+	margin: 5px;
 }
 
 .news__letter {
@@ -176,6 +176,10 @@ body {
 	border-color: #d4000a;
 	image-border: 2px;
 }
+
+.header_image {
+		margin: 8px;
+	}
 
 .about__image img {
 	border-color: #d4000a;

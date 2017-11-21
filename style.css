@@ -516,6 +516,8 @@ body, html {
     display: flex;
     -ms-flex-pack: justify;
         justify-content: space-between;
+    -ms-flex-align: center;
+        align-items: center;
     border-top: 1px solid #888888;
     border-bottom: 1px solid #888888;
   }
@@ -693,7 +695,7 @@ body {
   display: flex;
   -ms-flex-pack: start;
       justify-content: flex-start;
-  margin: 20px;
+  margin: 5px;
 }
 
 .news__letter {
@@ -708,6 +710,10 @@ body {
   padding-left: 30px;
   border-color: #d4000a;
   image-border: 2px;
+}
+
+.header_image {
+  margin: 8px;
 }
 
 .about__image img {
