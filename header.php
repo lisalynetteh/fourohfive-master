@@ -55,7 +55,7 @@
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php echo 'Menu'; ?></button>
 <div class="header__title">
 
-	<img class= "header_image" src="http://art-gallery.dev/wp-content/uploads/2017/11/Litz.png" style="width:50px;height:50px;border:0" > 
+	<img class= "header_image" src="http://art-gallery.dev/wp-content/uploads/2017/11/Litz-1.png" style="width:50px;height:50px;border:0" > 
 	<h2> Litz Art Gallery </h2>
 			
 	
