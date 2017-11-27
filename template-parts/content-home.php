@@ -10,8 +10,8 @@
 
 
 <div class="home_alert backgroundd">
-        <h1> 
-        	<?php the_field('title'); ?> </h1>
+        <h2> 
+        	<?php the_field('title'); ?> </h2>
         <br>
         	
                 <div class="">
@@ -20,12 +20,10 @@
 </div>
         	
 
-        
-
-<h1 class="home__titles"> 
+<h2 class="home__titles"> 
         	<?php the_field('galleryhourstitle'); ?>
         
-        </h1>
+        </h2>
 
         <p class="home__titless"> <?php the_field('galleryhours'); ?> </p>
 
