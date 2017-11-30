@@ -15,7 +15,7 @@
         <br>
         	
                 <div class="">
-        	<a class="button__home" href="http://art-gallery.dev/newsletter/">Sign up!</a>
+        	<a class="button__home" href="<?php echo get_site_url();?>/newsletter/">Sign up!</a>
                 </div>
 </div>
         	
